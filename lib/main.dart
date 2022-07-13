@@ -86,6 +86,30 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
+  //   changeIndex(String dirction) {
+  //   switch (dirction) {
+  //     case "right":
+  //       setState(() {
+  //         if (myIndex == verse.length - 1) {
+  //           myIndex = 0;
+  //         } else {
+  //           myIndex++;
+  //         }
+  //       });
+  //       break;
+
+  //     case "left":
+  //       setState(() {
+  //         if (myIndex == 0) {
+  //           myIndex = verse.length - 1;
+  //         } else {
+  //           myIndex--;
+  //         }
+  //       });
+  //       break;
+  //   }
+  // }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
